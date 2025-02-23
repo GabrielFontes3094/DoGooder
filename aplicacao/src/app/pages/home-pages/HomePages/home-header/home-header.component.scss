@@ -1,0 +1,72 @@
+// --------------- div pai -----------------
+.principalHeader{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+// -------------- logo ---------------------
+.headerLog{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.headerLog img{
+    width: 45%;
+    border-radius: 15px;
+}
+
+// ----------------- pesquisar ------------------
+.headerPesquisa{
+    width: 80%;
+    display: flex;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
+
+.search-container button {
+    background: #007bff;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    transition: background 0.3s;
+}
+
+.search-container button:hover {
+    background: #0056b3;
+}
+
+// -------------------- user ---------------------
+.headerUsuario{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerUsuario img{
+    width: 50%;
+}
+
