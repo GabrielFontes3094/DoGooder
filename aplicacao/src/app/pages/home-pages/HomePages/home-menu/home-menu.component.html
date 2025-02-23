@@ -1,1 +1,23 @@
-<p>menu</p>
+<div class="homeMenuBotoes">
+    <div class="homeMenuBotao" [class.active]="isActive('Home')" (click)="setActiveButton('Home')">
+        <b *ngIf="isActive('Home')"></b>
+        <button> Home </button>
+    </div>
+    <div class="homeMenuBotao" [class.active]="isActive('Mensagens')" (click)="setActiveButton('Mensagens')">
+        <b *ngIf="isActive('Mensagens')"></b>
+        <button> Mensagens </button>
+    </div>
+    <div class="homeMenuBotao" [class.active]="isActive('Postar')" (click)="setActiveButton('Postar')">
+        <b *ngIf="isActive('Postar')"></b>
+        <button> Postar </button>
+    </div>
+    <div class="homeMenuBotao" [class.active]="isActive('Notificações')" (click)="setActiveButton('Notificações')">
+        <b *ngIf="isActive('Notificações')"></b>
+        <button> Notificações </button>
+    </div>
+    <div class="homeMenuBotao" [class.active]="isActive('Configurações')" (click)="setActiveButton('Configurações')">
+        <b *ngIf="isActive('Configurações')"></b>
+        <button> Configurações </button>
+    </div>
+  </div>
+  

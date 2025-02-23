@@ -1,0 +1,27 @@
+.homeMenuBotoes{
+    position: fixed;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    gap: 5%;
+    padding: 8% 0 0 0;
+}
+
+.homeMenuBotoes button{
+    font-size: 15px;
+    border-radius: 10px 0 0 10px; /* Adiciona bordas arredondadas */
+    padding: 10px 15px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.homeMenuBotoes button:hover {
+    background-color: #0056b3;
+}
+
+/* Criando o cone conectado ao lado esquerdo */
+
