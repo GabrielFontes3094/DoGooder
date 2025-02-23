@@ -9,6 +9,9 @@
 .homeHeader{
     background-color: #ffffff;
     border: 1px solid var(--Borda);
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
 }
 
 
@@ -16,6 +19,7 @@
 .homeContent{
     width: 100%;
     display: flex;
+    padding-top: 6%;
 }
 
 //  ----------------- home Menu ----------------------------
