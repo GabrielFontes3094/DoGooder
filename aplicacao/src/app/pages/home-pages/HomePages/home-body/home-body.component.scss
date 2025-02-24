@@ -1,0 +1,27 @@
+.HomeBodyButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.HomeBodyButton button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.HomeBodyButton button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: scale(1.05);
+}
+
+.HomeBodyButton button:active {
+    background-color: #003d80; /* Azul ainda mais escuro */
+    transform: scale(0.95);
+}

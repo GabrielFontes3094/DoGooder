@@ -4,15 +4,15 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 15%;
+    width: 15vw; 
     gap: 5%;
     padding: 8% 0 0 0;
 }
 
 .homeMenuBotoes button{
-    font-size: 15px;
+    font-size: 1.2vw;
     border-radius: 10px 0 0 10px; /* Adiciona bordas arredondadas */
-    padding: 10px 15px;
+    padding: 1vw 1.5vw;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
