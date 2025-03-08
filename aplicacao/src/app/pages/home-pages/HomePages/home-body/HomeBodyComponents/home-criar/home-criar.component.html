@@ -1,0 +1,13 @@
+<form [formGroup]="eventoForm" (ngSubmit)="onSubmit()">
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" formControlName="nome" required />
+  
+    <label for="descricao">Descrição:</label>
+    <input id="descricao" type="text" formControlName="descricao" required />
+  
+    <label for="local">Local:</label>
+    <input id="local" type="text" formControlName="local" required />
+  
+    <button type="submit" [disabled]="eventoForm.invalid">Criar Evento</button>
+  </form>
+  
